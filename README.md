@@ -1,7 +1,8 @@
 A very minimal Laravel repro for the filament PHP bug https://github.com/filamentphp/filament/issues/14852
 
 To test:
-- create an admin user, or use the default admin user admin@admin.org / pw: admin
+- composer install & npm install
+- the sqlite DB is commited, so you can create an admin user, or use the default admin user admin@admin.org / pw: admin
 - run `php artisan serve` & `npm run dev`
 - go to localhost:8000/admin
 - go to the list view of the User resource
